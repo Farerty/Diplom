@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87DDA8EE-79B5-4E1F-9E01-3C4478A5050C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NewVersionDip</RootNamespace>
+    <AssemblyName>NewVersionDip</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1004\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Autentif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autentif.Designer.cs">
+      <DependentUpon>Autentif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dict.cs" />
+    <Compile Include="DPNag.cs" />
+    <Compile Include="ExcelHelper.cs" />
+    <Compile Include="Central.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Central.Designer.cs">
+      <DependentUpon>Central.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KursRabDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KursRabDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Nag.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="teacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teacherForm.Designer.cs">
+      <DependentUpon>teacherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestinClass.cs" />
+    <Compile Include="WordHelper.cs" />
+    <Compile Include="WorkHelper.cs" />
+    <Compile Include="ZNag.cs" />
+    <EmbeddedResource Include="Autentif.resx">
+      <DependentUpon>Autentif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Central.resx">
+      <DependentUpon>Central.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="teacherForm.resx">
+      <DependentUpon>teacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\res\akt_budget_spo.doc" />
+    <None Include="bin\Debug\res\akt_budget_spo.xlsx" />
+    <None Include="bin\Debug\res\akt_budget_vo.doc" />
+    <None Include="bin\Debug\res\akt_budget_vo.xlsx" />
+    <None Include="bin\Debug\res\akt_vnebudget_spo.doc" />
+    <None Include="bin\Debug\res\akt_vnebudget_spo.xlsx" />
+    <None Include="bin\Debug\res\akt_vnebudget_vo.doc" />
+    <None Include="bin\Debug\res\akt_vnebudget_vo.xlsx" />
+    <None Include="bin\Debug\res\dag_podryada_bjuSPO.xlsx" />
+    <None Include="bin\Debug\res\dag_podryada_bjuVO.xlsx" />
+    <None Include="bin\Debug\res\dag_podryada_vneSPO.xlsx" />
+    <None Include="bin\Debug\res\dag_podryada_vneVO.xlsx" />
+    <None Include="bin\Debug\res\dogovor_podryada_budget_spo.doc" />
+    <None Include="bin\Debug\res\dogovor_podryada_budget_spo_iii.doc" />
+    <None Include="bin\Debug\res\dogovor_podryada_budget_vo_iii.doc" />
+    <None Include="bin\Debug\res\dogovor_podryada_vnebudget_spo_iii.doc" />
+    <None Include="bin\Debug\res\dogovor_podryada_vnebudget_vo_iii.doc" />
+    <None Include="bin\Debug\res\zajavlenie_bjudzhet_spo.doc" />
+    <None Include="bin\Debug\res\zajavlenie_bjudzhet_spo.xlsx" />
+    <None Include="bin\Debug\res\Zajavlenie_bjudzhet_VO.doc" />
+    <None Include="bin\Debug\res\zajavlenie_bjudzhet_vo.xlsx" />
+    <None Include="bin\Debug\res\zajavlenie_vnebjudzhet_spo.doc" />
+    <None Include="bin\Debug\res\zajavlenie_vnebjudzhet_spo.xlsx" />
+    <None Include="bin\Debug\res\zajavlenie_vnebjudzhet_vo.doc" />
+    <None Include="bin\Debug\res\zajavlenie_vnebjudzhet_vo.xlsx" />
+    <None Include="bin\Debug\res\zayavlenie_na_pochasovuyu_oplatu_byudzhet.doc" />
+    <None Include="bin\Debug\res\zayavlenie_na_pochasovuyu_oplatu_byudzhet.xlsx" />
+    <None Include="bin\Debug\res\zayavlenie_na_pochasovuyu_oplatu_vnebyudzhet.doc" />
+    <None Include="bin\Debug\res\zayavlenie_na_pochasovuyu_oplatu_vnebyudzhet.xlsx" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="KursRabDataSet.xsc">
+      <DependentUpon>KursRabDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KursRabDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KursRabDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KursRabDataSet.xss">
+      <DependentUpon>KursRabDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NewVersionDip.teacherForm">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <Members>
+      <Field Name="apellationTextBox" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Method Name="button4_Click" Hidden="true" />
+      <Field Name="caf_IDTextBox" Hidden="true" />
+      <Field Name="caf_IDTextBox1" Hidden="true" />
+      <Field Name="cafedraBindingSource" Hidden="true" />
+      <Field Name="cafedraDataGridView" Hidden="true" />
+      <Method Name="cafedraDataGridView_MouseMove" Hidden="true" />
+      <Field Name="CafedraMinus" Hidden="true" />
+      <Method Name="CafedraMinus_Click" Hidden="true" />
+      <Field Name="cafedraTableAdapter" Hidden="true" />
+      <Field Name="cafIDDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="ChangeButton" Hidden="true" />
+      <Method Name="ChangeButton_Click" Hidden="true" />
+      <Field Name="CloseButton" Hidden="true" />
+      <Method Name="CloseButton_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn1" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn2" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn3" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn4" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn5" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn6" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn7" Hidden="true" />
+      <Field Name="dateOfBirthDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="dateOfBirthDateTimePicker" Hidden="true" />
+      <Field Name="DeleteBytton" Hidden="true" />
+      <Method Name="DeleteBytton_Click" Hidden="true" />
+      <Field Name="diplomDateDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="diplomDateDateTimePicker" Hidden="true" />
+      <Field Name="dipSerNumDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="dipSerNumTextBox" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="dolgnostDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="dolgnostTextBox" Hidden="true" />
+      <Field Name="familyTextBox" Hidden="true" />
+      <Field Name="flowDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="flowTextBox" Hidden="true" />
+      <Field Name="houseDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="houseTextBox" Hidden="true" />
+      <Field Name="idCafedra" Hidden="true" />
+      <Field Name="idOfCafedra" Hidden="true" />
+      <Field Name="idOfteacher" Hidden="true" />
+      <Field Name="idTeacher" Hidden="true" />
+      <Field Name="indDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="indexSave" Hidden="true" />
+      <Field Name="indTextBox" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="iNNDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="iNNTextBox" Hidden="true" />
+      <Field Name="instituteTextBox" Hidden="true" />
+      <Field Name="kursRabDataSet" Hidden="true" />
+      <Field Name="nameTextBox" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Method Name="panel4_MouseMove" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Method Name="panel5_MouseMove" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Method Name="panel6_MouseMove" Hidden="true" />
+      <Field Name="panel7" Hidden="true" />
+      <Field Name="passportDateDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="passportDateTextBox" Hidden="true" />
+      <Field Name="placeWorkingDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="placeWorkingTextBox" Hidden="true" />
+      <Field Name="plaseBirthDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="plaseBirthTextBox" Hidden="true" />
+      <Field Name="postTextBox" Hidden="true" />
+      <Method Name="refresh" Hidden="true" />
+      <Field Name="scienceStepenDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="scienceStepenTextBox" Hidden="true" />
+      <Field Name="scienceZvanieDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="scienceZvanieTextBox" Hidden="true" />
+      <Field Name="sec_NameTextBox" Hidden="true" />
+      <Field Name="sNILSDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="sNILSTextBox" Hidden="true" />
+      <Field Name="stritDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="stritTextBox" Hidden="true" />
+      <Field Name="t_FamilyTextBox" Hidden="true" />
+      <Field Name="t_FirstNameTextBox" Hidden="true" />
+      <Field Name="t_IDTextBox" Hidden="true" />
+      <Field Name="t_SecondNammeTextBox" Hidden="true" />
+      <Field Name="tableAdapterManager" Hidden="true" />
+      <Method Name="teacherBindingNavigatorSaveItem_Click" Hidden="true" />
+      <Field Name="teacherBindingSource" Hidden="true" />
+      <Field Name="teacherDataGridView" Hidden="true" />
+      <Method Name="teacherDataGridView_MouseMove" Hidden="true" />
+      <Method Name="teacherForm" Hidden="true" />
+      <Method Name="teacherForm_Load" Hidden="true" />
+      <Method Name="teacherForm_MouseMove" Hidden="true" />
+      <Field Name="teacherMinus" Hidden="true" />
+      <Method Name="teacherMinus_Click" Hidden="true" />
+      <Field Name="teacherPlus" Hidden="true" />
+      <Method Name="teacherPlus_Click" Hidden="true" />
+      <Field Name="teacherTableAdapter" Hidden="true" />
+      <Field Name="telephoneDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="telephoneTextBox" Hidden="true" />
+      <Field Name="tFamilyDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="tFirstNameDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="tIDDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="tounDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="tounTextBox" Hidden="true" />
+      <Field Name="tSecondNammeDataGridViewTextBoxColumn" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>UGKAolBhOXAJkBSzFIC/RBQHKUERqA4QA5UIcWXAQU0=</HashCode>
+      <FileName>teacherForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NewVersionDip.WordHelper">
+    <Position X="9" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="ReOpen" Hidden="true" />
+      <Field Name="str" Hidden="true" />
+      <Method Name="WordHelper" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAASCAAQAAAAAAAAA=</HashCode>
+      <FileName>WordHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="WorkHelper" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NewVersionDip.WorkHelper">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="Address" Hidden="true" />
+      <Method Name="choiceDockA4Excel" Hidden="true" />
+      <Method Name="choiceDockA4Word" Hidden="true" />
+      <Method Name="choiceDockA5Excel" Hidden="true" />
+      <Method Name="choiceDockA5Word" Hidden="true" />
+      <Method Name="Clearer" Hidden="true" />
+      <Method Name="comboBoxFuller" Hidden="true" />
+      <Method Name="DataSource" Hidden="true" />
+      <Method Name="DataSourceZ" Hidden="true" />
+      <Field Name="Day" Hidden="true" />
+      <Method Name="Days" Hidden="true" />
+      <Field Name="DP" Hidden="true" />
+      <Method Name="ExcelFuller" Hidden="true" />
+      <Method Name="ExeclDocFullerPOV" Hidden="true" />
+      <Field Name="flag" Hidden="true" />
+      <Field Name="flagZ" Hidden="true" />
+      <Method Name="FullStackDoc" Hidden="true" />
+      <Field Name="g" Hidden="true" />
+      <Field Name="g1" Hidden="true" />
+      <Field Name="g2" Hidden="true" />
+      <Field Name="g3" Hidden="true" />
+      <Field Name="Mounth" Hidden="true" />
+      <Field Name="MounthE" Hidden="true" />
+      <Field Name="MounthZ" Hidden="true" />
+      <Method Name="Mouth" Hidden="true" />
+      <Method Name="MouthE" Hidden="true" />
+      <Method Name="MouthZ" Hidden="true" />
+      <Method Name="NabDataAkt" Hidden="true" />
+      <Method Name="NabDataDP" Hidden="true" />
+      <Method Name="NabDataZ" Hidden="true" />
+      <Method Name="NagDPFReader" Hidden="true" />
+      <Method Name="NagFReader" Hidden="true" />
+      <Method Name="NagWorkerExcelAkt" Hidden="true" />
+      <Method Name="NagWorkerExcelDP" Hidden="true" />
+      <Method Name="NagZFReader" Hidden="true" />
+      <Method Name="NewDataSource" Hidden="true" />
+      <Method Name="OneZNPO" Hidden="true" />
+      <Method Name="PassCreator" Hidden="true" />
+      <Method Name="WordDPFuller" Hidden="true" />
+      <Method Name="WordZFuller" Hidden="true" />
+      <Method Name="WordZNPOFuller" Hidden="true" />
+      <Method Name="WorkHelper" Hidden="true" />
+      <Field Name="Z" Hidden="true" />
+      <Method Name="ZeroZNPO" Hidden="true" />
+      <Method Name="ZNAGCreator" Hidden="true" />
+      <Method Name="ZNPOSB" Hidden="true" />
+      <Method Name="ZNPOSV" Hidden="true" />
+      <Method Name="ZNPOSVD" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Struct Name="NewVersionDip.WorkHelper.ZNagSaver" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WorkHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAwYABAIMSAFgAAMIIpAAANABABCiQOUkABBAABgTM=</HashCode>
+      <FileName>WorkHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="teacherForm" />
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NewVersionDip.ExcelHelper">
+    <Position X="4" Y="3.5" Width="1.25" />
+    <Members>
+      <Method Name="SaveZ" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAJABAAAAGAAAAAAAAAgCAAAgAAAAAAAA=</HashCode>
+      <FileName>ExcelHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="WorkHelper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NewVersionDip.Autentif" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAQAAAACAAABAAQIChAAACAAAIAAAAEFAAAQCAAAA=</HashCode>
+      <FileName>Autentif.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NewVersionDip.Central">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <Members>
+      <Field Name="A4Excel" Hidden="true" />
+      <Method Name="A4Excel_Click" Hidden="true" />
+      <Field Name="A5Excel" Hidden="true" />
+      <Method Name="A5Excel_Click" Hidden="true" />
+      <Field Name="A5Word" Hidden="true" />
+      <Method Name="A5Word_Click" Hidden="true" />
+      <Property Name="Cafcombo" Hidden="true" />
+      <Field Name="CafcomboBox" Hidden="true" />
+      <Method Name="Central" Hidden="true" />
+      <Property Name="Check" Hidden="true" />
+      <Field Name="checkBox1" Hidden="true" />
+      <Field Name="CloseButton" Hidden="true" />
+      <Method Name="CloseButton_Click" Hidden="true" />
+      <Property Name="Combo1" Hidden="true" />
+      <Property Name="Combo2" Hidden="true" />
+      <Property Name="Combo3" Hidden="true" />
+      <Property Name="Combo4" Hidden="true" />
+      <Property Name="Combo5" Hidden="true" />
+      <Property Name="Combo6" Hidden="true" />
+      <Property Name="Combo7" Hidden="true" />
+      <Property Name="Combo9" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Method Name="comboBox1_SelectedIndexChanged" Hidden="true" />
+      <Field Name="comboBox2" Hidden="true" />
+      <Field Name="comboBox3" Hidden="true" />
+      <Field Name="comboBox4" Hidden="true" />
+      <Field Name="comboBox5" Hidden="true" />
+      <Field Name="comboBox6" Hidden="true" />
+      <Field Name="comboBox7" Hidden="true" />
+      <Field Name="comboBox8" Hidden="true" />
+      <Field Name="comboBox9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="DocButtonFuller" Hidden="true" />
+      <Method Name="DocButtonFuller_Click" Hidden="true" />
+      <Property Name="Faccom" Hidden="true" />
+      <Property Name="Faccom1" Hidden="true" />
+      <Field Name="faccomboBox" Hidden="true" />
+      <Property Name="FIOcombo" Hidden="true" />
+      <Field Name="FIOcomboBox" Hidden="true" />
+      <Field Name="flag" Hidden="true" />
+      <Field Name="flagAut" Hidden="true" />
+      <Method Name="Form1_MouseMove" Hidden="true" />
+      <Property Name="GEKcombo" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Method Name="label4_Click" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="lastUsedColumn" Hidden="true" />
+      <Field Name="lastUsedRow" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="MouseHook" Hidden="true" />
+      <Field Name="openFileDialogRes" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Method Name="panel3_MouseMove" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Method Name="panel5_MouseMove" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Method Name="panel6_MouseMove" Hidden="true" />
+      <Field Name="panel7" Hidden="true" />
+      <Field Name="panel8" Hidden="true" />
+      <Field Name="saveFileDialogBack" Hidden="true" />
+      <Field Name="SQLStat" Hidden="true" />
+      <Field Name="SVbutton" Hidden="true" />
+      <Method Name="SVbutton_Click" Hidden="true" />
+      <Field Name="teachers" Hidden="true" />
+      <Field Name="гЭКToolStripMenuItem" Hidden="true" />
+      <Field Name="данныеToolStripMenuItem" Hidden="true" />
+      <Field Name="добавитьToolStripMenuItem1" Hidden="true" />
+      <Method Name="добавитьToolStripMenuItem1_Click" Hidden="true" />
+      <Field Name="добавитьToolStripMenuItem2" Hidden="true" />
+      <Method Name="добавитьToolStripMenuItem2_Click" Hidden="true" />
+      <Field Name="изменитьToolStripMenuItem1" Hidden="true" />
+      <Method Name="изменитьToolStripMenuItem1_Click" Hidden="true" />
+      <Field Name="изменитьToolStripMenuItem2" Hidden="true" />
+      <Method Name="изменитьToolStripMenuItem2_Click" Hidden="true" />
+      <Field Name="менюToolStripMenuItem" Hidden="true" />
+      <Field Name="преподавателиToolStripMenuItem" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>+cGA4BwIayAgYBAQTrChAAIiAAAAAAACABghAYGAgEI=</HashCode>
+      <FileName>Central.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
